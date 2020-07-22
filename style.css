@@ -1,13 +1,23 @@
+.jumbotron {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 450px;
+}
+
 .carousel-item img{
   height: 500px;
   weight: 100%;
 }
 
-
 #carousel {
   background-color: gray;
   height: 500px;
   margin-top: 10px;
+}
+
+#portFooter {
+  text-align: center;
+  background-color: darkgray;
 }
 
 /* #carousel-text h5 {
