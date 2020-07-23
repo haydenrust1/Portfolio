@@ -1,7 +1,5 @@
-.jumbotron {
+footer {
   margin-top: 10px;
-  margin-bottom: 10px;
-  height: 450px;
 }
 
 .carousel-item img{
@@ -20,10 +18,10 @@
   background-color: darkgray;
 }
 
-/* #carousel-text h5 {
-  color: white;
+#jumboID {
+  background-color: seagreen;
+  margin-top: 10px;
+  height: 500px;
+  margin-bottom: 0px;
 }
 
-#carousel-text p {
-  color: white;
-} */
