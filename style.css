@@ -1,27 +1,35 @@
+/* Tags */
 footer {
   margin-top: 10px;
+  text-align: center;
+  background-color: darkgray;
 }
 
+/* Classes */
 .carousel-item img {
   height: 500px;
-  weight: 100%;
 }
 
+/* centered p tag in index */
 .jumboP {
   text-align: center;
 }
 
+/* ID's */
 #carousel {
   background-color: gray;
   height: 500px;
   margin-top: 10px;
 }
 
-#portFooter {
-  text-align: center;
-  background-color: darkgray;
+/* Contact.html */
+#jumboContact {
+  margin-top: 10px;
+  height: 100%;
+  margin-bottom: 0px;
 }
 
+/* index.html */
 #jumboID {
   margin-top: 10px;
   height: 100%;
@@ -31,6 +39,18 @@ footer {
 #jumboID img {
   float: left;
 }
+
+/* fixed footer on home page */
+#homeFooter {
+  margin-top: 20px;
+}
+
+/* fixed footer on contact page */
+#contactFooter {
+  margin-top: 20px;
+}
+
+/* fixed image on home page */
 
 #myFace {
   height: 240px;
