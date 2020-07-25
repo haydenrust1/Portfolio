@@ -7,6 +7,10 @@ footer {
   weight: 100%;
 }
 
+.jumboP {
+  text-align: center;
+}
+
 #carousel {
   background-color: gray;
   height: 500px;
@@ -19,8 +23,16 @@ footer {
 }
 
 #jumboID {
-  background-color: seagreen;
   margin-top: 10px;
-  height: 500px;
+  height: 100%;
   margin-bottom: 0px;
+}
+
+#jumboID img {
+  float: left;
+}
+
+#myFace {
+  height: 240px;
+  width: 200px;
 }
