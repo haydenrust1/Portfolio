@@ -1,3 +1,12 @@
+/* COLOR SCHEME 
+***************
+#FFFFFA;
+#515052;
+#000103;
+#333138;
+#FF312E;
+***************/
+
 /* Tags */
 footer {
   margin-top: 10px;
@@ -6,13 +15,17 @@ footer {
 }
 
 /* Classes */
-.carousel-item img {
-  height: 500px;
-}
 
 /* centered p tag in index */
 .jumboP {
   text-align: center;
+}
+
+.header-link {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 85px;
+  margin-top: 300px;
 }
 
 /* ID's */
