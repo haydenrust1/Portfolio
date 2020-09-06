@@ -25,12 +25,25 @@ footer {
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 85px;
-  margin-top: 300px;
+  margin-top: 200px;
+}
+
+.header-link a{
+  color: #333138;
+}
+
+.header-link a:hover{
+  color: #FFFFFA;
+}
+
+
+.jumbotron {
+
 }
 
 /* ID's */
 #carousel {
-  background-color: gray;
+  background: #FF312E;
   height: 500px;
   margin-top: 10px;
 }
@@ -40,6 +53,8 @@ footer {
   margin-top: 10px;
   height: 100%;
   margin-bottom: 0px;
+  background: #FF312E;
+
 }
 
 /* index.html */
@@ -47,6 +62,9 @@ footer {
   margin-top: 10px;
   height: 100%;
   margin-bottom: 0px;
+  background: #FF312E;
+
+  /* background: linear-gradient(45deg, #FFFFFA, #333138, #FF312E, #333138, #FFFFFA);   */
 }
 
 #jumboID img {
