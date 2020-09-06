@@ -87,3 +87,12 @@ footer {
   height: 240px;
   width: 200px;
 }
+
+#contactIcons {
+  text-align: center;
+  font-size: 50px;
+}
+
+#contactIcons a{
+  color: #FFFFFA;
+}
