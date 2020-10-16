@@ -11,18 +11,19 @@ html, body{
   height: 100%;
 }
 
+
 footer {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   text-align: center;
-  background-color:#343a40;
-  margin-bottom: 0px;
+  background: transparent;
+  /* margin-bottom: 0px; */
 }
 
-nav {
-  background-image: linear-gradient(to right,#000103, rgb(43, 143, 51));
-}
 
 /* Classes */
+.navbar {
+  background: none;
+}
 
 /* centered p tag in index */
 .jumboP {
@@ -45,6 +46,11 @@ nav {
   text-decoration: none;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
 /* ID's */
 
 /* portfolio.html */
@@ -55,11 +61,6 @@ nav {
 }
 #carousel ol li{
   background-color:#343a40;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
 }
 
 /* Contact.html */
@@ -73,10 +74,9 @@ nav {
 /* index.html */
 #jumboID {
   margin-top: 10px;
-  margin-bottom: 0px;
-  background:white;
+  /* margin-bottom: 0px; */
+  background-color: transparent;
   height: 100%;
-  /* background: linear-gradient(45deg, #FFFFFA, #333138, #FF312E, #333138, #FFFFFA);   */
 }
 
 #jumboID img {
@@ -85,7 +85,7 @@ nav {
 
 /* fixed footer on home page */
 #homeFooter {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 /* fixed footer on contact page */
@@ -107,11 +107,42 @@ nav {
 #contactIcons {
   text-align: center;
   font-size: 50px;
-  flex-grow: 1;
   animation: animated-div 3s ease-out 1s 1;
+  position: inherit;
 }
 
 #contactIcons a{
   color:#343a40;
 
 }
+
+/*Key Frames & Animations 
+--------------------------------*/
+@keyframes animated-div {
+  0% {
+      transform: rotate(0deg);
+      left: 0px;
+  }
+
+  25% {
+      transform: rotate(20deg);
+      left: 0px;
+  }
+  50% {
+      transform: rotate(-20deg);
+      left: 500px;
+  }
+  55% {
+      transform: rotate(0deg);
+      left: 500px;
+  }
+  70% {
+      transform: rotate(0deg);
+      left: 500px;
+  }
+  100% {
+      transform: rotate(-360deg);
+      left: 0px;
+  }
+}
+
