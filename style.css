@@ -5,13 +5,21 @@
 #000103;
 #333138;
 #FF312E;
+#343a40;
 ***************/
+html, body{
+  height: 100%;
+}
 
-/* Tags */
 footer {
   margin-top: 10px;
   text-align: center;
-  background-color: darkgray;
+  background-color:#343a40;
+  margin-bottom: 0px;
+}
+
+nav {
+  background-image: linear-gradient(to right,#000103, rgb(43, 143, 51));
 }
 
 /* Classes */
@@ -33,37 +41,41 @@ footer {
 }
 
 .header-link a:hover{
-  color: #FFFFFA;
-}
-
-
-.jumbotron {
-
+  color: #FF312E;
+  text-decoration: none;
 }
 
 /* ID's */
+
+/* portfolio.html */
 #carousel {
-  background: #FF312E;
-  height: 500px;
+  background: white;
+  height: 100%;
   margin-top: 10px;
+}
+#carousel ol li{
+  background-color:#343a40;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
 /* Contact.html */
 #jumboContact {
   margin-top: 10px;
-  height: 100%;
+  height: 100vh;
   margin-bottom: 0px;
-  background: #FF312E;
-
+  background: white;
 }
 
 /* index.html */
 #jumboID {
   margin-top: 10px;
-  height: 100%;
   margin-bottom: 0px;
-  background: #FF312E;
-
+  background:white;
+  height: 100%;
   /* background: linear-gradient(45deg, #FFFFFA, #333138, #FF312E, #333138, #FFFFFA);   */
 }
 
@@ -81,6 +93,10 @@ footer {
   margin-top: 20px;
 }
 
+#portFooter {
+  margin-top: 20px;
+}
+
 /* fixed image on home page */
 
 #myFace {
@@ -91,8 +107,11 @@ footer {
 #contactIcons {
   text-align: center;
   font-size: 50px;
+  flex-grow: 1;
+  animation: animated-div 3s ease-out 1s 1;
 }
 
 #contactIcons a{
-  color: #FFFFFA;
+  color:#343a40;
+
 }
