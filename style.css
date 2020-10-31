@@ -25,9 +25,20 @@ footer {
   background: none;
 }
 
+.indexNav {
+  background: white;
+}
+
+
+/* index background image */
+.view {
+  height: 100%;
+}
 /* centered p tag in index */
 .jumboP {
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .header-link {
@@ -72,6 +83,10 @@ footer {
 }
 
 /* index.html */
+#indexBod {
+  color: white;
+}
+
 #jumboID {
   margin-top: 10px;
   /* margin-bottom: 0px; */
@@ -81,6 +96,10 @@ footer {
 
 #jumboID img {
   float: left;
+}
+
+#indexNavAnchor, #navIndexTog{
+  background: white;
 }
 
 /* fixed footer on home page */
@@ -108,11 +127,11 @@ footer {
   text-align: center;
   font-size: 50px;
   animation: animated-div 3s ease-out 1s 1;
-  position: inherit;
+  position: absolute;
 }
 
 #contactIcons a{
-  color:#343a40;
+  color:white;
 
 }
 

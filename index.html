@@ -13,15 +13,16 @@
   <title>About Hayden</title>
 </head>
 
-<body>
+<body id="indexBod">
   <!--Sticky Navigation-->
   <nav class="navbar fixed-top navbar-light">
-    <a class="navbar-brand mb-0 h1" href="index.html">Hayden's Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand mb-0 h1" id="indexNavAnchor" href="index.html">Hayden's Portfolio</a>
+    <button class="navbar-toggler" id="navIndexTog" type="button" data-toggle="collapse"
+      data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse indexNav" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
@@ -32,7 +33,7 @@
 
   <!--Container-->
   <div class="view"
-    style="background-image: url('./Assets/Images/vincent-guth-uhoILl3HUZM-unsplash.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    style="background-image: url('./Assets/Images/galaxy.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     <div class="container-fluid">
       <!-- row -->
       <div class="row">
@@ -43,9 +44,10 @@
             <hr class="my-4">
             <img src="Assets/Images/IMG_0132.JPG" id="myFace" class="img-thumbnail"
               alt="picture of myself on the beach giving a shaka">
-            <p class="jumboP">What an honor to have a visitor in my humble online abode!
+            <p class="jumboP">What an honor it is to have a visitor in my humble online abode!
               <br>Please make yourself at home, stay as long as you want, and have a look around.
-              <br>I am a full stack web devoloper with an arsenal of weaponry that even Sauran wouldn't want to look at.
+              <br>I am a full stack web devoloper with an arsenal of weaponry that even Sauran wouldn't want to look
+              at.
               <br><br>
               <br>Tidbits of myself:
               <br>I just got married on September 18 of 2020, WOOT!
@@ -53,7 +55,8 @@
               <br> Being born and raised in the northern LA area, the beach has been a huge part of my life.
               <br>Portland, Oregon is now my residence and although the rain can be a drag, the hiking opportunities
               here
-              are beyond belief!</p>
+              are beyond belief!
+            </p>
           </div>
         </div>
       </div>
@@ -73,11 +76,9 @@
     </div>
   </div>
 
-
-
-  <!--Footer-->
+  <!-- Footer -->
   <footer>
-    <div id="homeFooter" class="card-footer text-muted">
+    <div id="homeFooter" class="card-footer fixed-bottom text-muted">
       &#169 Hayden Rust
     </div>
   </footer>
